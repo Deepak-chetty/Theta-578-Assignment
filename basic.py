@@ -58,3 +58,5 @@ print(result)
 str1 = "Test for slice of string" 
 char = str1[3]
 print(char)
+
+
