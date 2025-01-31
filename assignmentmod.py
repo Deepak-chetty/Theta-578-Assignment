@@ -83,3 +83,17 @@ plt.figure(figsize = (8, 6))
 sns.heatmap(corr, annot = True, cmap = "coolwarm", fmt = ".2f", linewidths = 0.5)
 plt.title("Feature Correlation Heatmap")
 plt.show()
+
+
+# 31-01-2025
+
+import pandas as pd
+
+from google.colab import files
+uploaded = files.upload()
+
+file_name = list(uploaded.keys())[0]
+
+df = pd.read_csv(file_name)
+
+print(df.head())
